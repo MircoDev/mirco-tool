@@ -1,0 +1,23 @@
+<mat-drawer-container class="navbar-container" [hasBackdrop]="hasBackdrop">
+  <mat-drawer #drawer [mode]="mode.value ||'side'">Qui inserirò il contenuto del drawer</mat-drawer>
+
+  <mat-drawer-content>
+    <mat-toolbar color="primary">
+      <button (click)="drawer.toggle()" mat-icon-button class="exampleon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Mirco's Tool</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button>
+        <fa-icon [icon]="faUser"></fa-icon>
+      </button>
+      <button mat-icon-button>
+        <fa-icon [icon]="faCoffee"></fa-icon>
+      </button>
+      <button mat-icon-button>
+        <fa-icon [icon]="faCoffee"></fa-icon>
+      </button>
+    </mat-toolbar>
+  </mat-drawer-content>
+
+</mat-drawer-container>
