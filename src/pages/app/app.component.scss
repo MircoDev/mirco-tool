@@ -1,3 +1,5 @@
+
+
 .navbar-container {
     position: absolute;
     top: 0;
@@ -6,6 +8,17 @@
     right: 0;
   }
   
-  .example-spacer {
+  .spacer {
     flex: 1 1 auto;
   }
+
+.sidenav-logo-topbar{
+  background-color: #3f51b5;
+  height: 64px;;
+}
+
+.custom-sidenav-menu-item{
+  background: #3f51b5;
+  
+}
+
